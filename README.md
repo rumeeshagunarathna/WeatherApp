@@ -52,8 +52,10 @@
     npx expo start
    ```
 
-![App Screenshot](assets/images/IMG_0316.png)
-![App Screenshot](assets/images/IMG_0317.png)
+## 📸 Screenshot
+
+<img src="assets/images/IMG_0316.png" alt="App Screenshot 1" width="300"/>
+<img src="assets/images/IMG_0317.png" alt="App Screenshot 2" width="300"/>
 
 In the output, you'll find options to open the app in a
 
