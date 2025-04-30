@@ -52,6 +52,9 @@
     npx expo start
    ```
 
+![App Screenshot](assets/images/IMG_0316.png)
+![App Screenshot](assets/images/IMG_0317.png)
+
 In the output, you'll find options to open the app in a
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
