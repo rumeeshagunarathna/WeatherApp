@@ -1,8 +1,38 @@
 # Welcome to Weather Finder app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A cross-platform mobile app built with React Native that allows users to search for real-time weather data by city name. It includes a backend GraphQL API powered by Apollo Server and Node.js.
+---
 
-## Get started
+## 📱 Features
+
+- Search weather by city name
+- Get temperature, feels like, condition, and weather icon
+- Mobile-friendly UI built with React Native
+- Real-time weather from OpenWeatherMap API
+- GraphQL API backend to fetch and format weather data
+
+---
+
+## 🧰 Tech Stack
+
+| Area      | Technology                | Purpose                           |
+|-----------|---------------------------|-----------------------------------|
+| Front-End | React Native              | Mobile UI framework               |
+|           | JavaScript                | Programming language              |
+|           | OpenWeatherMap API (REST) | Weather data                      |
+|           | React Hooks               | State management                  |
+|           | React Native Components   | UI layout and interaction         |
+| Back-End  | Node.js                   | Server runtime                    |
+|           | Apollo Server             | GraphQL API                       |
+|           | GraphQL                   | API query language                |
+|           | Axios                     | REST API request from server      |
+|           | dotenv                    | Environment variable management   |
+| Shared    | OpenWeatherMap API        | Weather data source               |
+
+---
+
+## 🚀 Get started!
 
 1. Install dependencies
 
