@@ -52,12 +52,13 @@
     npx expo start
    ```
 
-## 📸 Screenshot
+## 📸 Screenshots
 
-<div style="display: flex; gap: 30px; justify-content: center; margin: auto;">
+<div style="display: flex; gap: 50px; justify-content: center; margin: auto;">
   <img src="assets/images/IMG_0316.png" alt="App Screenshot 1" width="250"/>
   <img src="assets/images/IMG_0317.png" alt="App Screenshot 2" width="250"/>
 </div>
+
 
 In the output, you'll find options to open the app in a
 
