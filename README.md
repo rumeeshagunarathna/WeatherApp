@@ -55,8 +55,8 @@
 ## 📸 Screenshots
 
 <div style="display: flex; gap: 50px; justify-content: center; margin: auto;">
-  <img src="assets/images/IMG_0316.png" alt="App Screenshot 1" width="250"/>
-  <img src="assets/images/IMG_0317.png" alt="App Screenshot 2" width="250"/>
+  <img src="assets/images/IMG_0316.png" alt="App Screenshot 1" width="300"/>
+  <img src="assets/images/IMG_0317.png" alt="App Screenshot 2" width="300"/>
 </div>
 
 
