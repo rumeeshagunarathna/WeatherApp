@@ -60,7 +60,8 @@
 </div>
 
 
-In the output, you'll find options to open the app in a
+
+In the output, you'll find options to open the app in a,
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
