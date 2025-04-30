@@ -54,9 +54,10 @@
 
 ## 📸 Screenshot
 
-<img src="assets/images/IMG_0316.png" alt="App Screenshot 1" width="200"/>
-<img src="assets/images/IMG_0317.png" alt="App Screenshot 2" width="200"/>
-
+<div style="display: flex; gap: 10px;">
+  <img src="assets/images/IMG_0316.png" alt="App Screenshot 1" width="200"/>
+  <img src="assets/images/IMG_0317.png" alt="App Screenshot 2" width="200"/>
+</div>
 In the output, you'll find options to open the app in a
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
