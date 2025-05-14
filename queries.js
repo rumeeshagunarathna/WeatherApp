@@ -1,25 +1,4 @@
-// // queries.js
-// import { gql } from "@apollo/client";
-
-// export const GET_WEATHER = gql`
-//   query getCityByName($name: String!) {
-//     getCityByName(name: $name) {
-//       name
-//       weather {
-//         temperature {
-//           actual
-//           feelsLike
-//         }
-//         summary {
-//           description
-//           icon
-//         }
-//       }
-//     }
-//   }
-// `;
-
-
+//  queries.js
 
 const { ApolloServer, gql } = require("apollo-server");
 const axios = require("axios");
