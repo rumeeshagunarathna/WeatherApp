@@ -66,10 +66,10 @@
 ## 📸 Screenshots
 
 <div style="display: flex; gap: 50px; justify-content: center; margin: auto;">
-  <img src="assets/images/IMG_0325.png" alt="App Screenshot 1" width="300"/>
-  <img src="assets/images/IMG_0326.png" alt="App Screenshot 2" width="300"/>
-  <img src="assets/images/IMG_0327.png" alt="App Screenshot 2" width="300"/>
-  <img src="assets/images/IMG_0328.png" alt="App Screenshot 2" width="300"/>
+  <img src="assets/images/IMG_1.png" alt="App Screenshot 1" width="300"/>
+  <img src="assets/images/IMG_2.png" alt="App Screenshot 2" width="300"/>
+  <img src="assets/images/IMG_3.png" alt="App Screenshot 2" width="300"/>
+  <img src="assets/images/IMG_4.png" alt="App Screenshot 2" width="300"/>
 </div>
 
 
