@@ -40,16 +40,22 @@
    npm install
    ```
 
-1. Start the server
+2. Start the server
 
    ```bash
-   node queries.js
+   node server.js
    ```
 
-2. Start the app
+3. Start the app
 
    ```bash
     npx expo start
+   ```
+
+3. Use your local IP if testing on a device
+
+   ```bash
+    In apollo.js change IP address
    ```
 
 ## 📸 Screenshots
