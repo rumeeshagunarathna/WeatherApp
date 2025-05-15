@@ -1327,12 +1327,17 @@ const WeatherApp = () => {
               style={{ width: "100%" }}
               keyboardShouldPersistTaps="handled"
               contentContainerStyle={{ paddingBottom: 80 }}
+              scrollEnabled={true}
             >
               {selectedCities.map((city) => {
                 const key = `${city.lat},${city.lon}`;
                 const weather = cityWeatherMap[key];
                 return (
-                  <View key={key} style={styles.weatherBox}>
+                  <View
+                    key={key}
+                    style={styles.weatherBox}
+                    pointerEvents="box-none"
+                  >
                     <Text style={styles.resultTitle}>{city.name}</Text>
                     {weather ? (
                       <>
@@ -1393,7 +1398,7 @@ const styles = StyleSheet.create({
   overlay: {
     flex: 1,
     backgroundColor: "rgba(255, 255, 255, 0.85)",
-    justifyContent: "center",
+    justifyContent: "flex-start",
     alignItems: "center",
     padding: 20,
   },
@@ -1429,10 +1434,9 @@ const styles = StyleSheet.create({
     marginTop: 10,
     width: "60%",
     backgroundColor: "#800080",
-    
   },
   weatherBox: {
-    marginTop: 20,
+    marginTop: 15,
     padding: 15,
     borderWidth: 1,
     borderColor: "#ddd",
@@ -1441,6 +1445,8 @@ const styles = StyleSheet.create({
     width: "100%",
     alignItems: "center",
   },
+
+
   resultTitle: {
     fontSize: 22,
     fontWeight: "bold",

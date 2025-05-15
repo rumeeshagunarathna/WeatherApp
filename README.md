@@ -12,23 +12,28 @@
 - Mobile-friendly UI built with React Native
 - Real-time weather from OpenWeatherMap API
 - GraphQL API backend to fetch and format weather data
+- Dropdown city suggestions with autocomplete as you type
+- Uses native React Native controls for dropdown and input
+- Ability to add and display multiple cities’ weather simultaneously
+- Efficient city selection and removal with intuitive UI elements
 
 
 ## 🧰 Tech Stack
 
-| Area      | Technology                | Purpose                           |
-|-----------|---------------------------|-----------------------------------|
-| Front-End | React Native              | Mobile UI framework               |
-|           | JavaScript                | Programming language              |
-|           | OpenWeatherMap API (REST) | Weather data                      |
-|           | React Hooks               | State management                  |
-|           | React Native Components   | UI layout and interaction         |
-| Back-End  | Node.js                   | Server runtime                    |
-|           | Apollo Server             | GraphQL API                       |
-|           | GraphQL                   | API query language                |
-|           | Axios                     | REST API request from server      |
-|           | dotenv                    | Environment variable management   |
-| Shared    | OpenWeatherMap API        | Weather data source               |
+| Area      | Technology                | Purpose                                   |
+|-----------|---------------------------|-------------------------------------------|
+| Front-End | React Native              | Mobile UI framework                       |
+|           | JavaScript                | Programming language                      |
+|           | OpenWeatherMap API (REST) | Weather data                              |
+|           | React Hooks               | State management                          |
+|           | React Native Components   | UI layout and interaction                 |
+|           |Apollo Client              |	GraphQL client for querying server data   |
+| Back-End  | Node.js                   | Server runtime                            |
+|           | Apollo Server             | GraphQL API                               |
+|           | GraphQL                   | API query language                        |
+|           | Axios                     | REST API request from server              |
+|           | dotenv                    | Environment variable management           |
+| Shared    | OpenWeatherMap API        | Weather data source                       |
 
 
 
@@ -55,14 +60,16 @@
 3. Use your local IP if testing on a device
 
    ```bash
-    In apollo.js change IP address
+    In apollo.js change the IP address
    ```
 
 ## 📸 Screenshots
 
 <div style="display: flex; gap: 50px; justify-content: center; margin: auto;">
-  <img src="assets/images/IMG_0316.png" alt="App Screenshot 1" width="300"/>
-  <img src="assets/images/IMG_0317.png" alt="App Screenshot 2" width="300"/>
+  <img src="assets/images/IMG_0325.png" alt="App Screenshot 1" width="300"/>
+  <img src="assets/images/IMG_0326.png" alt="App Screenshot 2" width="300"/>
+  <img src="assets/images/IMG_0327.png" alt="App Screenshot 2" width="300"/>
+  <img src="assets/images/IMG_0328.png" alt="App Screenshot 2" width="300"/>
 </div>
 
 
