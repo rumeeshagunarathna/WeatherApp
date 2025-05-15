@@ -11,7 +11,7 @@
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
-  uri: "http://172.20.10.4:4000", // use your local IP if testing on a device
+  uri: "http://172.20.10.4:4000", // use the local IP if testing on a device
   cache: new InMemoryCache(),
 });
 
